@@ -20,15 +20,18 @@ nav {
   font-weight: 800;
   line-height: normal;
 }
-nav li {
+nav a {
   list-style: none;
+  text-decoration: none;
 }
 nav > ul {
   display: flex;
   gap: 44px;
-  color: var(--Dark-02, #424247);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
+}
+nav > ul a{
+    color: var(--Dark-02, #424247);;
 }
