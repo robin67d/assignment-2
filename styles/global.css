@@ -6,8 +6,9 @@
 /* nav bar */
 nav {
   padding-top: 52px;
+  padding-bottom: 70px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 .global-travel {
