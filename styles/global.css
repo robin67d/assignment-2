@@ -170,7 +170,9 @@ nav > ul a {
   line-height: 26px;
 }
 
-.collage-1, .collage-2, .collage-3 {
+.collage-1,
+.collage-2,
+.collage-3 {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -287,5 +289,10 @@ nav > ul a {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+  }
+  .collage-1,
+  .collage-2,
+  .collage-3 {
+    flex-direction: column;
   }
 }
