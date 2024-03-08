@@ -211,16 +211,12 @@ nav > ul a {
     left: 15px;
   }
   .search {
-    display: flex;
+    margin-left: 8px;
     width: 287px;
+    display: flex;
     padding: 16px;
-    top: -10px;
-    left: 9px;
     flex-direction: column;
-    align-items: flex-start;
     gap: 16px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.3);
   }
   .where,
   .when,
