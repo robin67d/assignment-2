@@ -177,6 +177,66 @@ nav > ul a {
   padding-top: 20px;
 }
 
+/* hotel service and prices */
+.container-2{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 28px;
+}
+.container-3{
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+}
+#icon {
+  padding-left: 32px;
+  padding-top: 32px;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+.title {
+  padding-left: 32px;
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: normal;
+}
+.title-description {
+  padding-left: 32px;
+  width: 486px;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.hotel,
+.service,
+.price {
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+  border-radius: 16px;
+}
+.service {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.service {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.price {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+/* Responsive section */
 /* small device */
 @media screen and (max-width: 576px) {
   nav {
