@@ -73,24 +73,15 @@ nav > ul a {
   font-weight: 400;
   line-height: 26px;
 }
-#search-here {
-  position: relative;
-  left: 16px;
-  color: rgba(19, 19, 24, 0.5);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: normal;
-}
 .search {
-  position: relative;
-  left: 185px;
-  bottom: -8px;
-  display: inline-flex;
-  padding: 16px;
-  align-items: flex-start;
+  display: flex;
+  justify-content: center;
   gap: 24px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+  margin-left: 185px;
+  margin-right: 185px;
 }
 .where,
 .when,
@@ -100,6 +91,13 @@ nav > ul a {
   flex-shrink: 0;
   border-radius: 8px;
   background: #fff;
+}
+.search-title {
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 16px;
 }
 .btn {
   width: 174px;
