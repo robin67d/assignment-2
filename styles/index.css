@@ -368,7 +368,7 @@ nav > ul a {
   line-height: 26px;
 }
 .line-1 {
- margin-left: 50px;
+  margin-left: 50px;
   width: 1320px;
   height: 1px;
   background: rgba(255, 255, 255, 0.15);
@@ -595,5 +595,37 @@ nav > ul a {
     font-size: 21.138px;
     font-weight: 800;
     line-height: normal;
+  }
+  /* footer */
+  .footer {
+    width: 375px;
+    height: 440px;
+  }
+  .global-title {
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .title {
+    margin-top: -70px;
+  }
+  .global-description {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: -50px;
+  }
+  .title-5 {
+    padding-left: 24px;
+  }
+  .social {
+    position: relative;
+    bottom: -20px;
+  }
+  .line-2 {
+    position: relative;
+    right: 250px;
+    bottom: -20px;
+    width: 335px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.1);
   }
 }
