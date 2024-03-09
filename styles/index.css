@@ -236,6 +236,103 @@ nav > ul a {
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
 }
+
+/* newsletter section */
+.container-4 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 60px;
+}
+.newsletter {
+  width: 474px;
+  height: 422px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+}
+.newsletter-title {
+  padding-top: 40px;
+  padding-left: 40px;
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: normal;
+}
+.newsletter-description {
+  padding-left: 40px;
+  width: 350px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+#form {
+  padding-left: 40px;
+}
+.border {
+  width: 393px;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.1);
+}
+#enter {
+  margin-bottom: 16px;
+  width: 375px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 20px;
+}
+.btn-3 {
+  padding-left: 40px;
+  width: 400px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+}
+.discount {
+  width: 672px;
+  height: 422px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: url(../images/mountain2.png), lightgray 50% / cover no-repeat;
+}
+.discount-amount {
+  transform: rotate(-19.628deg);
+  margin-top: 250px;
+  margin-left: 340px;
+  width: 324px;
+  height: 120px;
+  /* transform: rotate(-19.628deg); */
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #ff5400;
+}
+.travel {
+  padding-top: 20px;
+  /* transform: rotate(-19.628deg); */
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+.save {
+  position: relative;
+  bottom: 35px;
+  left: 35px;
+  /* transform: rotate(-19.628deg); */
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: normal;
+}
 /* Responsive section */
 /* small device */
 @media screen and (max-width: 576px) {
