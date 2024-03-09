@@ -599,7 +599,7 @@ nav > ul a {
   /* footer */
   .footer {
     width: 375px;
-    height: 440px;
+    height: 470px;
   }
   .global-title {
     font-size: 32px;
@@ -627,5 +627,9 @@ nav > ul a {
     width: 335px;
     height: 1px;
     background: rgba(19, 19, 24, 0.1);
+  }
+  .copyright{
+    position: relative;
+    bottom: 10px;
   }
 }
