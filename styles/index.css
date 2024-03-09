@@ -196,7 +196,7 @@ nav > ul a {
   height: 64px;
   flex-shrink: 0;
 }
-.title {
+.heading {
   padding-left: 32px;
   color: #131318;
   font-size: 24px;
