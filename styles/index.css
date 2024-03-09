@@ -539,6 +539,7 @@ nav > ul a {
     width: 355px;
   }
   .newsletter-title {
+    padding-top: 5px;
     padding-left: 23px;
   }
   .newsletter-description {
@@ -627,6 +628,9 @@ nav > ul a {
     width: 335px;
     height: 1px;
     background: rgba(19, 19, 24, 0.1);
+  }
+  .line-1{
+    width: 0;
   }
   .copyright{
     position: relative;
