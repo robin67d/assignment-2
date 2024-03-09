@@ -337,6 +337,63 @@ nav > ul a {
   font-weight: 800;
   line-height: normal;
 }
+
+/* footer */
+.footer-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.footer {
+  width: 1440px;
+  height: 502px;
+  flex-shrink: 0;
+  background: rgba(19, 19, 24, 0.05);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+  gap: 24px;
+}
+.global-description {
+  display: flex;
+  justify-content: center;
+}
+#title-5 {
+  width: 769px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.line-1 {
+ margin-left: 50px;
+  width: 1320px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.line-2 {
+  margin-left: 270px;
+  margin-top: 30px;
+  width: 872px;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.1);
+}
+.copyright {
+  margin-top: 50px;
+  text-align: center;
+  color: #131318;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+}
 /* Responsive section */
 /* small device */
 @media screen and (max-width: 576px) {
