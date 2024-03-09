@@ -292,7 +292,8 @@ nav > ul a {
   padding-left: 20px;
 }
 .btn-3 {
-  padding-left: 40px;
+  font-size: 20px;
+  font-weight: 400;
   width: 400px;
   height: 52px;
   flex-shrink: 0;
@@ -472,5 +473,70 @@ nav > ul a {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+  }
+  /* newsletter section */
+  .container-4 {
+    flex-direction: column;
+  }
+  .newsletter {
+    width: 355px;
+  }
+  .newsletter-title {
+    padding-left: 23px;
+  }
+  .newsletter-description {
+    width: 320px;
+    padding-left: 23px;
+  }
+  .border {
+    width: 310px;
+    margin-left: 24px;
+  }
+  #form {
+    margin-left: -18px;
+  }
+  #enter {
+    border-right: #fff;
+    border-left: #fff;
+    border-top: #fff;
+    border-bottom: #fff;
+    width: 288px;
+    height: 52px;
+  }
+  .btn-3 {
+    border-right: #fff;
+    border-left: #fff;
+    border-top: #fff;
+    border-bottom: #fff;
+    width: 310px;
+    height: 52px;
+  }
+  .discount {
+    transform: scaleX(-1);
+    padding-left: 23px;
+    width: 335px;
+    height: 300px;
+  }
+  .discount-amount {
+    transform: scaleX(-1);
+    position: relative;
+    bottom: 40px;
+    right: 350px;
+    width: 214.023px;
+    height: 79.268px;
+    border-radius: 10.569px;
+    background: #ff5400;
+  }
+  .travel {
+    padding-top: 15px;
+    font-size: 15.854px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .save {
+    padding-top: 10px;
+    font-size: 21.138px;
+    font-weight: 800;
+    line-height: normal;
   }
 }
