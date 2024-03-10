@@ -144,6 +144,9 @@ nav > ul a {
   position: relative;
   top: 50px;
 }
+.btn-2{
+  margin-bottom: 50px;
+}
 
 /* choose your destination */
 .destination-title {
